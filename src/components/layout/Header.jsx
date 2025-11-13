@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from '../ui/button'
 
 function Header() {
   return (
@@ -11,6 +12,7 @@ function Header() {
           <a href="/wishlist" className="hover:text-red-500">Wishlist</a>
           <a href="/cart" className="hover:text-red-500">Cart</a>
           <a href="/account" className="hover:text-red-500">Account</a>
+          <Button variant="outline" size="sm">Click</Button>
         </nav>
       </div>
     </header>
